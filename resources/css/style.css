@@ -82,12 +82,20 @@ header .icon {
   padding-left: .75rem;
 }
 
+header .tablet {
+  display: none;
+}
+
 header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 450px) {
   header .desktop {
+    display: none;
+  }
+
+  header .tablet {
     display: none;
   }
 
