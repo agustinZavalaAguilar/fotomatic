@@ -318,18 +318,29 @@ header .mobile {
 
 @media only screen and (max-width: 890px) {
   .feature h2 {
-    font-size: 1.125rem;
+    font-size: 1.9rem;
     line-height: 1.3;
-    font-weight: normal;
+    font-weight: bold;
   }
 
   .feature h3 {
-    font-size: .875rem;
-    line-height: 1.4;
+    font-size: 1.09rem;
+    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 760px) {
+  #features-section {
+    display: flex;
+    padding: 0;
+  }
+
+  .feature {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 450px) {
   #features-section {
     flex-flow: column;
     padding: 0;
