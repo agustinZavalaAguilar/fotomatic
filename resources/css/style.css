@@ -391,7 +391,7 @@ header .mobile {
   padding: 0 1%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 450px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
