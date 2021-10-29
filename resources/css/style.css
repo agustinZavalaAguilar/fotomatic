@@ -444,20 +444,23 @@ header .mobile {
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
-  #quotes-section content {
-    padding: 1.875rem .625rem;
+@media only screen and (max-width: 890px) {
+  #quotes-section .content {
+    padding: 2.875rem .625rem;
+    display: flex;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
+    padding: 0;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
-    margin: auto;
+    margin-right: 2rem;
+    height: 2rem;
   }
 }
 
