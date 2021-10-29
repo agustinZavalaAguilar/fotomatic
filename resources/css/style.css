@@ -9,8 +9,6 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
-  background-image: url(../images/banner-landingpage.jpg);
-  background-repeat: no-repeat;
 }
 
 .center {
@@ -37,9 +35,9 @@ img {
 }
 
 @media only screen and (max-width: 760px) {
-  .main-content {
+   .main-content {
     top: 2.5625rem;
-  }
+  }  
 }
 
 /* Header */
@@ -109,6 +107,10 @@ header .mobile {
     float: right;
   }
 
+  header nav li {
+    padding-left: 1.5rem;
+  }
+
   header .tablet .button {
     padding: .1875rem .5rem;
     background-color: #9dc20b;
@@ -175,11 +177,12 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
+  height: 32rem;
   padding-top: 170px;
   padding-left: 100px;
-  padding-bottom: 0;
-  height: 500px;
+  padding-bottom: 0;  
+  background-image: url(../images/banner-landingpage.jpg);
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
@@ -225,11 +228,15 @@ header .mobile {
 }
 
 @media only screen and (max-width: 760px) {
+ 
   #sign-up-section {
     align-items: center;
     justify-content: center;
-    height: 28rem;
-  }
+    height: 23rem;
+    background-size: contain; 
+    display: flex;   
+    padding: 0;
+    }
 
   #sign-up-cta {
     position: static;
